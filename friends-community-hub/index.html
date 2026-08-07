@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeAll Community Views</title>
+    <style>
+        /* This section styles the page to look warm and readable */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .instructions {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid #eee;
+        }
+
+        .instructions h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        /* This ensures the Pol.is board fits perfectly on mobile and desktop */
+        .polis-wrapper {
+            width: 100%;
+            min-height: 600px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>WeAll Community Views</h1>
+    </header>
+
+    <main class="container">
+        
+        <section class="instructions">
+            <h2>Community Pulse Check</h2>
+            <p>Welcome! We are taking the temperature of the room before our next meeting.</p>
+            <ul>
+                <li>Read the short statements below and simply click <strong>Agree</strong>, <strong>Disagree</strong>, or <strong>Pass</strong>.</li>
+                <li>This isn't a debate—there are no reply buttons. We are just looking for where we share common ground.</li>
+                <li>If your perspective is missing, type your own single-issue sentence at the bottom for others to vote on.</li>
+            </ul>
+            <p><em>Please add your votes by Friday so we can review the consensus report together.</em></p>
+        </section>
+
+        <!-- The Pol.is board is embedded below -->
+        <div class="polis-wrapper">
+            
+            <div class='polis' data-conversation_id='5hhncw7reh'></div>
+<script async src='https://pol.is/embed.js'></script>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
